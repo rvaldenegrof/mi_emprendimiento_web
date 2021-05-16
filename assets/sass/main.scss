@@ -5,7 +5,9 @@
 
 @import 'base/reset';
 
-@import 'components/buttons';
+@import 'components/buttons',
+        'components/inputs',
+        'components/navs';
 
 @import 'layout/navigation',
         'layout/hero-section',
