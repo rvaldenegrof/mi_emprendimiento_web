@@ -1,1 +1,13 @@
-@import 'abstract/variables'
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'vendors/scss/bootstrap.scss';
+
+@import 'base/reset';
+
+@import 'components/buttons';
+
+@import 'layout/navigation',
+        'layout/hero-section',
+        'layout/main',
+        'layout/footer';

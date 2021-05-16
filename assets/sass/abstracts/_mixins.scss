@@ -1,0 +1,35 @@
+@mixin xsmall-device {
+    @media (min-width: #{$min-xs}){
+        @content;
+    }
+}
+
+@mixin small-device {
+    @media (min-width: #{$min-sm}){
+        @content;
+    }
+}
+
+@mixin medium-device {
+    @media (min-width: #{$min-md}){
+        @content;
+    }
+}
+
+@mixin large-device {
+    @media (min-width: #{$min-lg}){
+        @content;
+    }
+}
+
+@mixin xlarge-device {
+    @media (min-width: #{$min-xl}){
+        @content;
+    }
+}
+
+@mixin xxlarge-device {
+    @media (min-width: #{$min-xxl}){
+        @content;
+    }
+} 
