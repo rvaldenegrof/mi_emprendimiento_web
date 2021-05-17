@@ -9992,10 +9992,18 @@ img {
   height: 100%;
 }
 
+.rgt__engranage {
+  width: 30%;
+  height: 30%;
+}
+
 .footer {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+.footer__legal {
+  list-style: none;
 }
 
 /*# sourceMappingURL=main.css.map */
