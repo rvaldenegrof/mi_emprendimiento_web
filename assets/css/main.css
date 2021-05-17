@@ -9987,19 +9987,19 @@ img {
   margin-right: 3em;
 }
 
-.lft {
+.principal__lft {
   border: 1px solid black;
   width: 100%;
   height: 100%;
 }
 
-.rgt {
+.principal__rgt {
   border: 1px solid black;
   width: 100%;
   height: 100%;
 }
 
-.rgt__engranage {
+.principal__rgt-engranage {
   width: 30%;
   height: 30%;
 }
