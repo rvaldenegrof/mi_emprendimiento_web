@@ -5,10 +5,16 @@
 }
 .navigation-bar {
     width: 100%;
+    background-color: $black;
 }
 
 .navbar {
     width: 100%;
+}
+
+.navbar-nav {
+    font-family: $poppins;
+    font-weight: $poppins-bold;
 }
 
 .collapse {

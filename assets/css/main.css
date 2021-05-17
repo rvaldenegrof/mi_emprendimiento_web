@@ -9953,10 +9953,16 @@ img {
 
 .navigation-bar {
   width: 100%;
+  background-color: #000000;
 }
 
 .navbar {
   width: 100%;
+}
+
+.navbar-nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 
 .collapse {
@@ -10001,9 +10007,16 @@ img {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
 }
-.footer__legal {
+.footer__legal ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   list-style: none;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=main.css.map */

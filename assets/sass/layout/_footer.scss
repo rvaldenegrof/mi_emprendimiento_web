@@ -2,8 +2,15 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    background-color: $black;
+    color: $white;
+    text-decoration: none;
 
-    &__legal {
+    &__legal ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         list-style: none;
+        color: $white;
     }
 }
