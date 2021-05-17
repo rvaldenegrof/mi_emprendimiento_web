@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     padding: 2em;
-    float: right;
+
 }
 
 .principal__rgt-engranage {
@@ -29,16 +29,27 @@
     }
 }
 
-.wevdev {
+.principal__rgt-webdeveloper {
+    text-align: center;
 
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    .wevdev {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .algn-lft{
+        text-align: left;
+    }
 }
+
 
 .more__title{
     background-color: $charcoal;
     color: $white;
     text-align: center;
     font-size: $small;
+}
+
+.moore__li {
+    list-style-type: circle;
 }
