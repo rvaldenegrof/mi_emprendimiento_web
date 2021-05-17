@@ -9983,6 +9983,7 @@ img {
 }
 
 .main {
+  border: 1px solid red;
   margin-left: 2em;
   margin-right: 3em;
 }
@@ -9991,17 +9992,37 @@ img {
   border: 1px solid black;
   width: 100%;
   height: 100%;
+  padding: 2em;
 }
 
 .principal__rgt {
   border: 1px solid black;
   width: 100%;
   height: 100%;
+  padding: 2em;
+  float: right;
 }
 
 .principal__rgt-engranage {
   width: 30%;
   height: 30%;
+}
+
+.principal__lft-article {
+  border: 1px solid green;
+}
+
+.wevdev {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.more__title {
+  background-color: #2E1503;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
 }
 
 .footer {
