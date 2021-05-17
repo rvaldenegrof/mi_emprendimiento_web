@@ -9983,18 +9983,19 @@ img {
 }
 
 .main {
-  border: 1px solid black;
   margin-left: 2em;
   margin-right: 3em;
 }
 
 .lft {
   border: 1px solid black;
+  width: 100%;
   height: 100%;
 }
 
 .rgt {
   border: 1px solid black;
+  width: 100%;
   height: 100%;
 }
 
