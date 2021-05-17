@@ -1,0 +1,20 @@
+.wrapper, .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.navigation-bar {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.collapse {
+    flex-direction: row-reverse;
+}
+
+.navbar-brand img {
+    width: 40px;
+}

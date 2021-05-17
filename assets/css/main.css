@@ -9945,6 +9945,53 @@ img {
   max-width: 100%;
 }
 
+.wrapper, .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navigation-bar {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.collapse {
+  flex-direction: row-reverse;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.hero-section {
+  width: 100%;
+  justify-content: center;
+}
+.hero-section__img {
+  width: 60%;
+  height: 20vw;
+}
+
+.main {
+  border: 1px solid black;
+  margin-left: 2em;
+  margin-right: 3em;
+}
+
+.lft {
+  border: 1px solid black;
+  height: 100%;
+}
+
+.rgt {
+  border: 1px solid black;
+  height: 100%;
+}
+
 .footer {
   width: 100%;
   margin: 0 auto;
