@@ -10049,5 +10049,8 @@ img {
   list-style: none;
   color: #FFFFFF;
 }
+.footer__legal-li a {
+  color: #FFFFFF;
+}
 
 /*# sourceMappingURL=main.css.map */
