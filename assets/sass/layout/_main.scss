@@ -1,31 +1,49 @@
-.main{
-    border: 1px solid red;
-    margin-left: 2em;
-    margin-right: 3em;
+.principal {
+
 }
+.envol {
+    display: flex;
+    border: solid;
+    margin-left: 2%;
+    justify-content: center;
+}
+
 .principal__lft {
-    border: 1px solid black;
     width: 100%;
     height: 100%;
-    padding: 2em;
+    margin: 1em;
 }
 
 .principal__rgt {
-    border: 1px solid black;
     width: 100%;
     height: 100%;
-    padding: 2em;
-
-}
-
-.principal__rgt-engranage {
-    width: 30%;
-    height: 30%;
+    margin: 1em;
 }
 
 .principal {
     &__lft-article{
-        border: 1px solid green;
+        border: 1px dotted $sable;
+        margin-bottom: 0.5em;
+        padding: 5px;
+    }
+
+    &__rgt-article{
+        margin-bottom: 0.5em;
+    }
+
+    &__title {
+        font-size: $large;
+        font-weight: $ubuntu-bold;
+    }
+    
+    &__p {
+        font-size: $small;
+    }
+
+    &__instructor {
+        font-size: $medium;
+        font-weight: $ubuntu-bold;
+        padding-left: .5em;
     }
 }
 
@@ -33,17 +51,19 @@
     text-align: center;
 
     .wevdev {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
+        padding-top: 1em;
     }
     .algn-lft{
         text-align: left;
+        font-size: $small;
     }
 }
 
-
 .more__title{
+    padding: .5em;
     background-color: $charcoal;
     color: $white;
     text-align: center;
@@ -52,4 +72,12 @@
 
 .moore__li {
     list-style-type: circle;
+    font-size: $medium;
+}
+
+.principal__rgt-engranage {
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 30%;
 }

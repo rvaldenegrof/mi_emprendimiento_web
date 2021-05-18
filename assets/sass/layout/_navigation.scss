@@ -24,3 +24,9 @@
 .navbar-brand img {
     width: 40px;
 }
+
+.navbar-toggler-icon:hover {
+    border-color: transparent;
+    color: $orange;
+    cursor: pointer;
+}
