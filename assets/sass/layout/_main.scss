@@ -1,23 +1,16 @@
 .principal {
-
+width: 100%;
+height: 100%;
 }
 .envol {
     display: flex;
     border: solid;
     margin-left: 2%;
-    justify-content: center;
 }
 
-.principal__lft {
+.principal__lft, .principal__rgt  {
     width: 100%;
     height: 100%;
-    margin: 1em;
-}
-
-.principal__rgt {
-    width: 100%;
-    height: 100%;
-    margin: 1em;
 }
 
 .principal {
@@ -51,14 +44,15 @@
     text-align: center;
 
     .wevdev {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         padding-top: 1em;
     }
     .algn-lft{
         text-align: left;
         font-size: $small;
+        padding-top: 1em;
     }
 }
 
@@ -78,6 +72,7 @@
 .principal__rgt-engranage {
     display: block;
     margin: auto;
-    width: 30%;
-    height: 30%;
+    padding-top: 3em;
+    width: 40%;
+    height: 100%;
 }
