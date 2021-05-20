@@ -17,6 +17,7 @@ height: 100%;
     &__lft-article{
         border: 1px dotted $sable;
         margin-bottom: 0.5em;
+        margin-top: .5em;
         padding: 5px;
     }
 
@@ -47,7 +48,8 @@ height: 100%;
         width: 150px;
         height: 150px;
         border-radius: 50%;
-        padding-top: 1em;
+        margin-top: .5em;
+        border: 1px solid $sable;
     }
     .algn-lft{
         text-align: left;
@@ -73,6 +75,13 @@ height: 100%;
     display: block;
     margin: auto;
     padding-top: 3em;
-    width: 40%;
+    width: 25%;
     height: 100%;
+}
+
+.principal__rgt-engranage .tuerca__interna, .principal__rgt-engranage .tuerca__externa {
+    -webkit-animation: 2s rotate infinite linear;
+            animation: 2s rotate infinite linear;
+    -webkit-transform-origin: 80% 80%;
+            transform-origin: 80% 80%;
 }
