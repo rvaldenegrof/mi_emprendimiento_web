@@ -9973,6 +9973,10 @@ img {
   margin-left: 0.5em;
 }
 
+.enviar:hover {
+  background-color: #FFAF6D;
+}
+
 .wrapper, .row {
   display: flex;
   flex-direction: row;
@@ -10134,6 +10138,7 @@ img {
   .main__culumna__izq {
     border: solid;
     max-width: 100%;
+    border-bottom: 0px;
   }
   .main__culumna__der {
     border: solid;
@@ -10153,6 +10158,7 @@ img {
   .main__culumna__izq {
     border: solid;
     max-width: 45%;
+    border-bottom: 0px;
   }
   .main__culumna__der {
     border: solid;

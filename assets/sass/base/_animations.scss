@@ -1,0 +1,17 @@
+@keyframes rotate {
+    0% { 
+        transform: rotate($cero); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes traslate {
+    0% {
+        transform: translateX(150px);
+    }
+    100% {
+        transform: translateX($cero);
+    }
+}
