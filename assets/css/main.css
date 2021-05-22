@@ -10122,7 +10122,7 @@ img {
 }
 
 .main__colums {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 @media (min-width: 576px) {
