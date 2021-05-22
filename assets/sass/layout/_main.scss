@@ -2,6 +2,7 @@
 width: 100%;
 height: 100%;
 }
+
 .envol {
     display: flex;
     border: solid;
@@ -79,9 +80,29 @@ height: 100%;
     height: 100%;
 }
 
-.principal__rgt-engranage .tuerca__interna, .principal__rgt-engranage .tuerca__externa {
+.principal__rgt-engranage .tuerca {
     -webkit-animation: 2s rotate infinite linear;
             animation: 2s rotate infinite linear;
     -webkit-transform-origin: 80% 80%;
             transform-origin: 80% 80%;
+}
+
+.horizontal {
+    animation: traslate 1s ease-in-out infinite alternate forwards;
+}
+
+/*OTRA ESTRUCTURA*/
+.main {
+    display: flex;
+    margin: .5em .5em .5em .5em;
+    justify-content: center;
+
+    &__culumna__izq{
+        border: solid;
+
+    }
+
+    &__culumna__der{
+        border: solid;
+    }
 }

@@ -9961,6 +9961,11 @@ img {
     transform: translateX(0);
   }
 }
+.enviar {
+  background-color: #FFA500;
+  margin-left: 0.5em;
+}
+
 .wrapper, .row {
   display: flex;
   flex-direction: row;
@@ -10079,11 +10084,28 @@ img {
   height: 100%;
 }
 
-.principal__rgt-engranage .tuerca__interna, .principal__rgt-engranage .tuerca__externa {
+.principal__rgt-engranage .tuerca {
   -webkit-animation: 2s rotate infinite linear;
   animation: 2s rotate infinite linear;
   -webkit-transform-origin: 80% 80%;
   transform-origin: 80% 80%;
+}
+
+.horizontal {
+  animation: traslate 1s ease-in-out infinite alternate forwards;
+}
+
+/*OTRA ESTRUCTURA*/
+.main {
+  display: flex;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  justify-content: center;
+}
+.main__culumna__izq {
+  border: solid;
+}
+.main__culumna__der {
+  border: solid;
 }
 
 .footer {
@@ -10106,6 +10128,7 @@ img {
 .footer__legal-li a {
   color: #FFFFFF;
   padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
