@@ -10129,6 +10129,22 @@ img {
   justify-content: space-evenly;
 }
 
+@media (min-width: 1px) {
+  .main {
+    display: flex;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    justify-content: center;
+  }
+  .main__culumna__izq {
+    border: solid;
+    max-width: 100%;
+    border-bottom: 0px;
+  }
+  .main__culumna__der {
+    border: solid;
+    max-width: 100%;
+  }
+}
 @media (min-width: 576px) {
   .main {
     display: flex;
@@ -10158,13 +10174,29 @@ img {
   .main__culumna__izq {
     border: solid;
     max-width: 45%;
-    border-bottom: 0px;
   }
   .main__culumna__der {
     border: solid;
     max-width: 45%;
   }
 }
+/* @include large-device  {
+    .main {
+        display: flex;
+        margin: .5em .5em .5em .5em;
+        justify-content: center;
+
+        &__culumna__izq{
+            border: solid;
+            max-width: 45%;
+        }
+
+        &__culumna__der{
+            border: solid;
+            max-width: 45%;
+        }
+    }
+} */
 .footer {
   width: 100%;
   margin: 0 auto;
